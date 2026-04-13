@@ -70,7 +70,7 @@ jupyter notebook
 
 ## Connect
 
-[LinkedIn](https://www.linkedin.com/in/hammadhaideer)]
-[GitHub](https://github.com/hammadhaideer)]
+[LinkedIn](https://www.linkedin.com/in/hammadhaideer)
+[GitHub](https://github.com/hammadhaideer)
 
 ⭐ Star this repo if you find it useful!
