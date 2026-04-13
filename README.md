@@ -1,25 +1,17 @@
-<div align="center">
-
-# 🧠 Deep Learning
+# Deep Learning
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-Latest-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-*From perceptrons to transformers — deep learning concepts built from the ground up.*
+*From perceptrons to transformers, deep learning concepts built from the ground up.*
 
-</div>
+## About This Repository
 
----
+A research-oriented deep learning notebook series by a Master's student specializing in Anomaly Detection & NLP. PyTorch is used throughout. The framework of choice for modern AI research.
 
-## 👤 About This Repository
-
-A research-oriented deep learning notebook series by a Master's student specializing in Anomaly Detection & NLP. PyTorch is used throughout — the framework of choice for modern AI research.
-
----
-
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 deep-learning/
@@ -52,9 +44,7 @@ deep-learning/
 └── resources.md
 ```
 
----
-
-## 📓 Notebooks
+## Notebooks
 
 | # | Topic | Framework | Status |
 |---|-------|-----------|--------|
@@ -64,9 +54,8 @@ deep-learning/
 | 04 | RNNs & LSTMs | PyTorch | ⏳ |
 | 05 | Attention & Transformers | PyTorch | ⏳ |
 
----
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/deep-learning.git
@@ -75,17 +64,13 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
----
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 `Python` · `PyTorch` · `TorchVision` · `NumPy` · `Matplotlib` · `TensorBoard`
 
----
+## Connect
 
-## 🤝 Connect
+[LinkedIn](https://www.linkedin.com/in/hammadhaideer)]
+[GitHub](https://github.com/hammadhaideer)]
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/YOUR_PROFILE)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/YOUR_USERNAME)
-
-> ⭐ Star this repo if you find it useful!
+⭐ Star this repo if you find it useful!
