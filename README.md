@@ -6,7 +6,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1%2B-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-Paper: [A Unified Model for Multi-class Anomaly Detection](https://arxiv.org/abs/2206.03687) — You et al., NeurIPS 2022 Spotlight  
+Paper: [A Unified Model for Multi-class Anomaly Detection](https://arxiv.org/abs/2206.03687) - You et al., NeurIPS 2022 Spotlight  
 Official repo: <https://github.com/zhiyuanyou/UniAD>
 
 ## What this is
