@@ -1,0 +1,62 @@
+seed: 42
+
+data:
+  root: ${env:UNIAD_DATA_ROOT}
+  image_size: 224
+  feature_size: 14
+  categories:
+    - bottle
+    - cable
+    - capsule
+    - carpet
+    - grid
+    - hazelnut
+    - leather
+    - metal_nut
+    - pill
+    - screw
+    - tile
+    - toothbrush
+    - transistor
+    - wood
+    - zipper
+
+backbone:
+  name: efficientnet_b4
+  pretrained: true
+  out_indices: [0, 1, 2, 3]
+  feature_dim: 272
+
+model:
+  hidden_dim: 256
+  num_heads: 8
+  num_encoder_layers: 4
+  num_decoder_layers: 4
+  dim_feedforward: 1024
+  dropout: 0.1
+  neighbor_mask_size: 7
+  jitter_scale: 20.0
+  jitter_prob: 1.0
+  layer_wise_query: true
+
+train:
+  batch_size: 8
+  num_workers: 4
+  epochs: 1000
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+  warmup_epochs: 50
+  log_every: 50
+  save_every: 100
+  amp: true
+
+eval:
+  batch_size: 16
+  num_workers: 4
+  post_processing: max
+  pool_size: 16
+
+paths:
+  checkpoint_dir: checkpoints
+  results_dir: results
+  log_dir: runs
